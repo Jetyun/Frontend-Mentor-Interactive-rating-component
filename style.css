@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing: content-box;
+font-family: 'Overpass', sans-serif;
+border:none;
+}
+
+body{
+background-color: hsl(216, 12%, 8%);
+
+max-width: 375px;
+max-height:400px;
+
+}
+
+section{
+    max-width: 375px;
+    max-height:400px;
+display: flex;
+align-content: center;
+justify-content: center;
+flex-direction: column;
+background-color: hsl(213, 19%, 18%);
+border-radius: 5px;
+margin:20px;
+}
+
+.star{
+background-color: hsl(215, 15%, 23%);
+border-radius:500px;
+padding:12px;
+height:15px;
+align-self: flex-start;
+margin:10px;
+
+
+}
+h1{
+color:white;
+margin: 0 20px ;
+font-size: 1.8rem;
+
+}
+
+p{
+font-size: 15px;
+color: hsl(217, 12%, 63%);
+margin: 20px;
+}
+
+form{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+input{
+    display:none;
+
+} 
+
+input:checked + label{
+    color:white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+label{
+   color: hsl(216, 12%, 54%);
+    margin:5px;
+    padding:6px 12px;
+    border-radius:500px;
+    background-color: hsl(215, 15%, 23%);
+    font-size: 15px;
+    
+}
+
+.submit{
+background-color: hsl(25, 97%, 53%);
+color:white;
+font-size: 15px;
+margin:20px;
+padding: 10px 40px;
+text-align: center;
+border-radius: 40px;
+text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+a:active{
+color: hsl(25, 97%, 53%);
+background-color: white;
+}
+
+
+.thanks{
+    background-color: hsl(215, 15%, 23%);
+    color: hsl(25, 97%, 53%);
+    padding:5px;
+    border-radius: 20px;
+}
+
+.second{
+align-items: center;
+text-align: center;
+
+}
+
+.margin{
+margin:25px 0 0 0;
+}
